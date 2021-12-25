@@ -1,5 +1,5 @@
 module.exports = eleventyConfig => {
-    eleventyConfig.addPassthroughCopy("src/css");
+    eleventyConfig.addPassthroughCopy("src/assets");
 
     return {
         markdownTemplateEngine: 'njk',

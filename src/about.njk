@@ -1,4 +1,7 @@
 ---
 layout: "layouts/base.njk"
 title: "About"
+description: "About page description"
+eleventyComputed:
+  url: "{{ [site.url, \"/\", page.fileSlug] | join }}"
 ---
