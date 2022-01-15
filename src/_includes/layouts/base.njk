@@ -25,8 +25,20 @@
         <meta property="twitter:description" content="{{ description }}">
         <meta property="twitter:image" content="https://res.cloudinary.com/segbedji/image/upload/v1640418598/11tybase/11tybase_nxv8gz.png">
 
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+
         <!--- Favicon -->
-        <link rel="icon" type="image/png" href="/assets/11tybase-favicon.png">
+        <link rel="icon" type="image/png" href="/assets/images/11tybase-favicon.png">
+
+        <!-- Stylesheets -->
+        {% if "development" in config.environment %}
+            <link rel="stylesheet" href="/assets/css/style.css">
+        {% else %}
+            <link rel="stylesheet" href="/assets/css/style.min.css">
+        {% endif %}
     </head>
     <body>
         {{ content | safe }}
