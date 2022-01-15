@@ -9,6 +9,7 @@
         <title>{{ title }} - {{ tagline if tagline else site.title }}</title>
         <meta name="title" content="{{ title }} - {{ tagline if tagline else site.title }}">
         <meta name="description" content="{{ description }}">
+        <meta name="robots" content="{{ indexation if indexation else "index" }} {{following if following else "follow"}}">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
