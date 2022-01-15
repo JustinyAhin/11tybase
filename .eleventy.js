@@ -1,7 +1,12 @@
 const fs = require("fs");
 
 module.exports = eleventyConfig => {
+    eleventyConfig.addWatchTarget("tailwind.config.js")
+
     eleventyConfig.addPassthroughCopy("src/assets");
+
+    eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
+    eleventyConfig.addPassthroughCopy("src/assets/css/style.min.css");
 
     // BrowserSync config for handling 404s locally
     eleventyConfig.setBrowserSyncConfig({
