@@ -25,3 +25,5 @@ Run `npm run servez` to start the development.
 ### Build
 
 `build:tailwind` works almost similar to `serve:tailwind`. The only difference is that it generates the minified CSS file used in production. `build:11ty` builds the site and generates the static HTML files in the `dist` directory.
+
+Run `npm run build` to start the production build.
