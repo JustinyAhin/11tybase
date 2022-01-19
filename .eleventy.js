@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 module.exports = eleventyConfig => {
-    eleventyConfig.addWatchTarget("tailwind.config.js")
+    eleventyConfig.addWatchTarget("tailwind.config.js");
 
     eleventyConfig.addPassthroughCopy("src/assets/images");
 
