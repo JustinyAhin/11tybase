@@ -12,7 +12,7 @@ The template includes a basic SEO configuration. The title, the description and 
 
 The template uses [Tailwind CSS](https://tailwindcss.com) for styling. It only includes a basic set of styles, for typography and link styling.
 
-When `NODE_ENV` is set to `development`, the template uses the [unminiified version of the generated CSS](./src/assets/css/style.css). This is useful for debugging. When `NODE_ENV` is set to `production`, the template uses a [minified and optimized CSS](./src/assets/css/style.min.css).
+When `NODE_ENV` is set to `development`, the template uses the unminiified version of the generated CSS. This is useful for debugging. When `NODE_ENV` is set to `production`, the template uses a [minified and optimized CSS](https://11tybase.vercel.app/assets/css/style.min.css).
 
 ## Usage
 
