@@ -20,7 +20,7 @@ When `NODE_ENV` is set to `development`, the template uses the [unminiified vers
 
 The `serve:*` commands are used to start the development server. `serve:tailwind` pass the [base CSS file](./src/assets/css/base.css) through the [Tailwind configuration file](./tailwind.config.js) and generates the unminified development CSS file. `serve:11ty` starts the BrowserSync for 11ty serve and watches for changes in the `src` directory.
 
-Run `npm run servez` to start the development.
+Run `npm run serve` to start the development.
 
 ### Build
 
