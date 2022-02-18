@@ -1,14 +1,12 @@
-############
-## IDEs
-############
+# IDEs
 .vscode
 
-############
-## Vendor
-############
+# Vendor
 node_modules
 
-############
-## Build
-############
+# Build
 dist
+
+# Tailwind
+src/assets/css/style.css
+src/assets/css/style.min.css
