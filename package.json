@@ -5,7 +5,7 @@
   "scripts": {
     "build:tailwind": "NODE_ENV=production postcss src/assets/css/base.css -o src/assets/css/style.min.css",
     "serve:tailwind": "postcss src/assets/css/base.css -o src/assets/css/style.css --watch",
-    "build:11ty": "eleventy",
+    "build:11ty": "eleventy --incremental",
     "serve:11ty": "eleventy --serve --quiet",
     "delete:css": "rm dist/assets/css/style.css",
     "serve": "NODE_ENV=development run-p serve:*",
